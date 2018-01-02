@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		444D84CB1FFBA3D2008420C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444D84CA1FFBA3D2008420C6 /* AppDelegate.swift */; };
-		444D84CD1FFBA3D2008420C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444D84CC1FFBA3D2008420C6 /* ViewController.swift */; };
-		444D84D01FFBA3D2008420C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 444D84CE1FFBA3D2008420C6 /* Main.storyboard */; };
 		444D84D21FFBA3D2008420C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 444D84D11FFBA3D2008420C6 /* Assets.xcassets */; };
 		444D84D51FFBA3D2008420C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 444D84D31FFBA3D2008420C6 /* LaunchScreen.storyboard */; };
+		444D84E91FFBA409008420C6 /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444D84DD1FFBA409008420C6 /* CalenderView.swift */; };
+		444D84EA1FFBA409008420C6 /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444D84DE1FFBA409008420C6 /* MonthView.swift */; };
+		444D84EB1FFBA409008420C6 /* WeekdaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444D84DF1FFBA409008420C6 /* WeekdaysView.swift */; };
+		444D84EC1FFBA409008420C6 /* CalenderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444D84E11FFBA409008420C6 /* CalenderVC.swift */; };
+		444D84ED1FFBA409008420C6 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 444D84E31FFBA409008420C6 /* next.png */; };
+		444D84EE1FFBA409008420C6 /* next@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 444D84E41FFBA409008420C6 /* next@2x.png */; };
+		444D84EF1FFBA409008420C6 /* next@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 444D84E51FFBA409008420C6 /* next@3x.png */; };
+		444D84F01FFBA409008420C6 /* previous.png in Resources */ = {isa = PBXBuildFile; fileRef = 444D84E61FFBA409008420C6 /* previous.png */; };
+		444D84F11FFBA409008420C6 /* previous@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 444D84E71FFBA409008420C6 /* previous@2x.png */; };
+		444D84F21FFBA409008420C6 /* previous@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 444D84E81FFBA409008420C6 /* previous@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		444D84C71FFBA3D2008420C6 /* Calender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		444D84CA1FFBA3D2008420C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		444D84CC1FFBA3D2008420C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		444D84CF1FFBA3D2008420C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		444D84D11FFBA3D2008420C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		444D84D41FFBA3D2008420C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		444D84D61FFBA3D2008420C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		444D84DD1FFBA409008420C6 /* CalenderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderView.swift; sourceTree = "<group>"; };
+		444D84DE1FFBA409008420C6 /* MonthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
+		444D84DF1FFBA409008420C6 /* WeekdaysView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekdaysView.swift; sourceTree = "<group>"; };
+		444D84E11FFBA409008420C6 /* CalenderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderVC.swift; sourceTree = "<group>"; };
+		444D84E31FFBA409008420C6 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		444D84E41FFBA409008420C6 /* next@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "next@2x.png"; sourceTree = "<group>"; };
+		444D84E51FFBA409008420C6 /* next@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "next@3x.png"; sourceTree = "<group>"; };
+		444D84E61FFBA409008420C6 /* previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = previous.png; sourceTree = "<group>"; };
+		444D84E71FFBA409008420C6 /* previous@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "previous@2x.png"; sourceTree = "<group>"; };
+		444D84E81FFBA409008420C6 /* previous@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "previous@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,46 @@
 		444D84C91FFBA3D2008420C6 /* Calender */ = {
 			isa = PBXGroup;
 			children = (
+				444D84E01FFBA409008420C6 /* Controller */,
+				444D84E21FFBA409008420C6 /* Image */,
+				444D84DC1FFBA409008420C6 /* View */,
 				444D84CA1FFBA3D2008420C6 /* AppDelegate.swift */,
-				444D84CC1FFBA3D2008420C6 /* ViewController.swift */,
-				444D84CE1FFBA3D2008420C6 /* Main.storyboard */,
 				444D84D11FFBA3D2008420C6 /* Assets.xcassets */,
 				444D84D31FFBA3D2008420C6 /* LaunchScreen.storyboard */,
 				444D84D61FFBA3D2008420C6 /* Info.plist */,
 			);
 			path = Calender;
+			sourceTree = "<group>";
+		};
+		444D84DC1FFBA409008420C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				444D84DD1FFBA409008420C6 /* CalenderView.swift */,
+				444D84DE1FFBA409008420C6 /* MonthView.swift */,
+				444D84DF1FFBA409008420C6 /* WeekdaysView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		444D84E01FFBA409008420C6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				444D84E11FFBA409008420C6 /* CalenderVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		444D84E21FFBA409008420C6 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				444D84E31FFBA409008420C6 /* next.png */,
+				444D84E41FFBA409008420C6 /* next@2x.png */,
+				444D84E51FFBA409008420C6 /* next@3x.png */,
+				444D84E61FFBA409008420C6 /* previous.png */,
+				444D84E71FFBA409008420C6 /* previous@2x.png */,
+				444D84E81FFBA409008420C6 /* previous@3x.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +172,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				444D84D51FFBA3D2008420C6 /* LaunchScreen.storyboard in Resources */,
+				444D84EF1FFBA409008420C6 /* next@3x.png in Resources */,
+				444D84F21FFBA409008420C6 /* previous@3x.png in Resources */,
+				444D84F11FFBA409008420C6 /* previous@2x.png in Resources */,
 				444D84D21FFBA3D2008420C6 /* Assets.xcassets in Resources */,
-				444D84D01FFBA3D2008420C6 /* Main.storyboard in Resources */,
+				444D84ED1FFBA409008420C6 /* next.png in Resources */,
+				444D84F01FFBA409008420C6 /* previous.png in Resources */,
+				444D84EE1FFBA409008420C6 /* next@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +189,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				444D84CD1FFBA3D2008420C6 /* ViewController.swift in Sources */,
+				444D84E91FFBA409008420C6 /* CalenderView.swift in Sources */,
+				444D84EB1FFBA409008420C6 /* WeekdaysView.swift in Sources */,
+				444D84EA1FFBA409008420C6 /* MonthView.swift in Sources */,
+				444D84EC1FFBA409008420C6 /* CalenderVC.swift in Sources */,
 				444D84CB1FFBA3D2008420C6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,14 +200,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		444D84CE1FFBA3D2008420C6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				444D84CF1FFBA3D2008420C6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		444D84D31FFBA3D2008420C6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
